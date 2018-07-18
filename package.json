@@ -1,0 +1,33 @@
+{
+  "name": "jovo-plugin-spreadsheet-fallback-log",
+  "version": "1.0.0",
+  "description": "Jovo plugin, which logs the data of every request mapped to Google's Default Fallback Intent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KaanKC/jovo-plugin-spreadsheet-fallback.git"
+  },
+  "keywords": [
+    "jovo",
+    "plugin",
+    "fallback",
+    "spreadsheet",
+    "google",
+    "spreadsheet"
+  ],
+  "author": "Kaan Kilic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KaanKC/jovo-plugin-spreadsheet-fallback/issues"
+  },
+  "homepage": "https://github.com/KaanKC/jovo-plugin-spreadsheet-fallback#readme",
+  "dependencies": {
+    "airtable": "^0.5.6"
+  },
+  "peerDependencies": {
+    "jovo-framework": "^1.3.4"
+  }
+}
