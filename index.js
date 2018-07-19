@@ -19,6 +19,7 @@ class AirtableFallbackLog extends Plugin {
                 options.locale = jovo.getLocale();
                 options.state = jovo.getState();
                 options.rawText = jovo.platform.getRawText();
+                options.timestamp = jovo.getTimestamp();
                 sendToAirtable.call(this, options);
             }
         });
@@ -39,6 +40,7 @@ class AirtableFallbackLog extends Plugin {
 function sendToAirtable(options) {
     this.base(this.tableName).create({
         UserId: options.userId,
+        Timestamp: options.timestamp,
         Locale: options.locale,
         State: options.state,
         Speech: options.output,
