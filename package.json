@@ -1,5 +1,5 @@
 {
-  "name": "jovo-plugin-spreadsheet-fallback-log",
+  "name": "jovo-plugin-fallback-airtable",
   "version": "1.0.0",
   "description": "Jovo plugin, which logs the data of every request mapped to Google's Default Fallback Intent",
   "main": "index.js",
