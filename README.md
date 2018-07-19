@@ -1,8 +1,10 @@
 This plugin logs data about incoming Default Fallback Intents to an Airtable spreadsheet. Tracks: **UserID, Timestamp, Locale, State, Speech, Reprompt, Utterance (raw text)**.
 
+![Example](./_images/example.png)
+
 # Installation
 
-First of all you have to sign up to [Airtable](https://airtable.com/). After that go over to the [template](https://airtable.com/universe/expcg7NcTJWR9BJM7/jovo-plugin-fallback-airtable) and click on `Copy base` on the top right corner. You c
+First of all you have to sign up to [Airtable](https://airtable.com/). After that go over to the [template](https://airtable.com/universe/expcg7NcTJWR9BJM7/jovo-plugin-fallback-airtable) and click on `Copy base` on the top right corner.
 
 You also need an API key, which you can generate on your [account page](https://airtable.com/account)
 
