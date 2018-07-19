@@ -1,8 +1,4 @@
-![Example](./_images/example.png)
-
-
-
-This plugin logs data about incoming Default Fallback Intents to an Airtable spreadsheet. Tracked data is: **UserID, Timestamp, Locale, State, Speech, Reprompt, Utterance (raw text)**.
+This plugin logs data about incoming Default Fallback Intents to an Airtable spreadsheet. Tracks: **UserID, Timestamp, Locale, State, Speech, Reprompt, Utterance (raw text)**.
 
 # Installation
 
