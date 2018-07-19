@@ -2,17 +2,25 @@
 
 
 
-This plugin logs data about incoming Default Fallback Intents to an Airtable spreadsheet. Tracked data is: **UserID, Locale, State, Speech, Reprompt, Utterance (raw text)**.
+This plugin logs data about incoming Default Fallback Intents to an Airtable spreadsheet. Tracked data is: **UserID, Timestamp, Locale, State, Speech, Reprompt, Utterance (raw text)**.
 
 # Installation
 
-First of all you have to sign up to [Airtable](https://airtable.com/) and create a **Base**. You can use the 
+First of all you have to sign up to [Airtable](https://airtable.com/). After that go over to the [template](https://airtable.com/universe/expcg7NcTJWR9BJM7/jovo-plugin-fallback-airtable) and click on `Copy base` on the top right corner. You c
+
+You also need an API key, which you can generate on your [account page](https://airtable.com/account)
+
+The last thing you need is your base's ID. First go the [API page](https://airtable.com/api) and choose your base. It's most likely named `Jovo-Plugin-Fallback-Airtable`. Scroll down to `Authentication`, switch the example tab to `node.js` and copy the string marked in the example picture:
+
+![Airtable Base ID](./_images/airtable_baseid.png)
+
+Now you can add the plugin to your project:
 ```sh
-$ npm install jovo-plugin-email-error --save
+$ npm install jovo-plugin-fallback-airtable --save
 ```
 In your Jovo project:
 ```javascript
-const EmailError = require('jovo-plugin-email-error');
+const FallbackAirtable = require('jovo-plugin-fallback-airtable');
 
 // Required:
 let options = {
@@ -21,7 +29,7 @@ let options = {
     tableName: 'tableName'
 }
 
-app.register('EmailError', new EmailError(options));
+app.register('FallbackAirtable', new FallbackAirtable(options));
 ```
 
 # License
