@@ -1,0 +1,1 @@
+export {FallbackAirtablePlugin} from './FallbackAirtablePlugin';
