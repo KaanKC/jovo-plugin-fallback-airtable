@@ -3,8 +3,7 @@ import request = require('request');
 
 export interface Config extends PluginConfig {
     apiKey: string,
-    baseId: string,
-    tableName: string
+    baseId: string
 }
 
 
@@ -13,8 +12,7 @@ export class FallbackAirtablePlugin implements Plugin {
     // default config
     config: Config = {
         apiKey: '',
-        baseId: '',
-        tableName: ''
+        baseId: ''
     };
 
     speech?: string;
