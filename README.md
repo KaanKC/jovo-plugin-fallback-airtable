@@ -13,10 +13,13 @@ The last thing you need is your base's ID. First go the [API page](https://airta
 ![Airtable Base ID](./_images/airtable_baseid.png)
 
 Now you can add the plugin to your project:
+
 ```sh
-$ npm install jovo-plugin-fallback-airtable --save
+$ npm install jovo-plugin-fallback-airtable@1.0.0 --save-exact
 ```
+
 In your Jovo project:
+
 ```javascript
 const FallbackAirtable = require('jovo-plugin-fallback-airtable');
 
