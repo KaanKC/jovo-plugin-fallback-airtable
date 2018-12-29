@@ -1,6 +1,6 @@
 {
   "name": "jovo-plugin-fallback-airtable",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Jovo plugin, which logs the data of every request mapped to Google's Default Fallback Intent",
   "main": "dist/src/index",
   "types": "dist/src/index.d.ts",
